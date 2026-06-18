@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kritika's Birthday 🎂</title>
+
+<style>
+body{
+background:linear-gradient(#ffd6e8,#fff0f6);
+overflow:hidden;
+font-family:'Comic Sans MS', cursive;
+text-align:center;
+color:#ff4f81;
+}
+
+h1{
+font-size:60px;
+margin-top:100px;
+text-shadow:3px 3px white;
+}
+
+button{
+padding:15px 30px;
+font-size:22px;
+background:#ff9ec4;
+border:none;
+border-radius:20px;
+cursor:pointer;
+color:white;
+}
+
+button:hover{
+background:#ff6fa9;
+}
+
+#letter{
+display:none;
+background:baby pink;
+width:70%;
+margin:auto;
+margin-top:30px;
+padding:30px;
+border-radius:30px;
+box-shadow:0px 0px 20px pink;
+font-size:22px;
+}
+
+.hello{
+position:absolute;
+font-size:50px;
+animation:float 8s linear infinite;
+}
+
+@keyframes float{
+0%{
+transform:translateY(100vh);
+}
+100%{
+transform:translateY(-100px);
+}
+}
+
+.h1{left:10%;animation-delay:0s;}
+.h2{left:25%;animation-delay:2s;}
+.h3{left:45%;animation-delay:4s;}
+.h4{left:65%;animation-delay:1s;}
+.h5{left:85%;animation-delay:3s;}
+</style>
+</head>
+
+<body>
+
+<div class="hello h1">🐱🎀</div>
+<div class="hello h2">🐱🎀</div>
+<div class="hello h3">🐱🎀</div>
+<div class="hello h4">🐱🎀</div>
+<div class="hello h5">🐱🎀</div>
+
+<h1>🎂 Happy Birthday Kritika! 🎂</h1>
+
+<button onclick="showLetter()">💌 Click for a Surprise!</button>
+
+<div id="letter">
+🍭🍬🍫🍓🧁🍩🍭🍬🍫<br><br>
+
+Dear Kritika, 💖<br><br>
+
+Happy Birthday to the sweetest, and most amazing person ever! 🎀✨
+May your day be filled with happiness, laughter, cake, and endless memories. 🌸💗
+
+You deserve all the love, joy, and candies in the world! 🍰🍬🍭
+Keep shining and smiling because you make life brighter for everyone around you! 💕
+
+Have the most magical birthday ever! 🎂🎉
+
+💖 With lots of love 💖
+
+🍭🍬🍫🍓🧁🍩🍭🍬🍫
+</div>
+
+<script>
+function showLetter(){
+document.getElementById("letter").style.display="block";
+}
+</script>
+
+</body>
+</html>
